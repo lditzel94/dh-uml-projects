@@ -121,4 +121,16 @@ public class Dog {
         return calendar.get( Calendar.YEAR ) - yearOfBirth;
     }
 
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "adopted=" + adopted +
+                ", breed='" + breed + '\'' +
+                ", yearOfBirth=" + yearOfBirth +
+                ", weight=" + weight +
+                ", chip=" + chip +
+                ", hurt=" + hurt +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

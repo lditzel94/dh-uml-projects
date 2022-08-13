@@ -13,5 +13,6 @@ public class Main {
         System.out.println( d1.getAge() );
         System.out.println( d1.canGetLost() );
         System.out.println( d1.getCanBeAdopted() );
+        System.out.println( d1 );
     }
 }
