@@ -16,6 +16,9 @@ public class Debit {
         this.bankAccount = account;
     }
 
+    public Debit() {
+    }
+
     public void pay( Double amount ) {
         bankAccount.balance -= amount;
     }
